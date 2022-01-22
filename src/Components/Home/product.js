@@ -8,7 +8,18 @@ function Product({title, price, img, addToCart}) {
   console.log(price);
 
 
-  const userData = JSON.parse(localStorage.getItem('data'));
+  const userData = "T523432r235";
+
+  if(JSON.parse(localStorage.getItem('data')) != null){
+
+
+    const userData = JSON.parse(localStorage.getItem('data'));
+
+
+
+  }
+
+
 
   
   return (
